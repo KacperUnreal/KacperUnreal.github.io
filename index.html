@@ -1,0 +1,167 @@
+<html>
+
+	<head>
+	
+		<title>Welcome!</title>    <!--This is the title in the tab header-->
+		
+		<script>
+		
+			function show()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "block";
+			}
+			
+			function hideabout()
+			{
+				var div = document.getElementById("about")
+				div.style.display = "none";
+			}
+			
+			function showContact()
+			{
+				var div = document.getElementById("contact")
+				div.style.display = "block";
+			}
+			
+			function hideContact()
+			{
+				var div = document.getElementById("contact")
+				div.style.display = "none";
+			}			
+		
+
+			
+		
+		
+		</script>
+		
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+	
+	<style>
+
+	body {
+		background-image: url("images/Background2.png");
+	    background-repeat: repeat-y;
+		background-size: 100%;
+		}		
+
+	</style>
+	
+
+
+	<body >
+	
+
+	
+	
+		
+		<div class="header" >   <!--calls upon the great header in top right-->
+						
+			<div style="
+					float:right;
+					font-size: 2rem;
+					color: white;
+					">
+			
+				<a href="Index.html">Home </a>| <a onclick="showContact()" href='#'>Contact</a> | <a href="CV.html">CV </a>| <a onclick="show()" href='#'>About</a>
+				
+			</div>	
+			
+		</Div>	
+		
+
+		<div id="about" style="display: none; background: black; border: 1rem solid black; position: absolute; right: 1rem; top: 3rem; background: url('images/black.PNG'); width: 500px">   <!--This is the div that opens when about is clicked-->
+			
+
+				<div style="width: 250px; border: 5px solid white; float: left">
+					<img style="width: 250px;" src="images/Kacper.PNG">
+				</div>
+				
+				<div style="border: 2px solid white; width: 220px; height: 350px; float: right">
+					<p style="color: white;">	Hello, My name is Kacper and I am a student who currently studies Games Design </p>
+				</div>
+			
+			<a onclick="hideabout()" href='#'> Close </a>
+		
+		
+		
+		</div>
+		
+		
+		<div id="contact" style="display: none;
+								background: url('images/black.png');
+								border: 1rem solid black;
+								position: absolute;
+								right: 1rem;
+								width: 215;
+								height: 70;
+								top: 3rem; ">   <!--This is the div that opens when Contact is clicked-->
+			
+
+			
+
+			
+			<div>	
+				<img style=" width: 50;" src="icons/facebook.png">
+				<img style=" width: 50; padding-bottom: 5px;" src="icons/Gmail.png">	
+				<img style=" width: 50;" src="icons/instagram.png">	
+				<img style=" width: 50;" src="icons/linkedin.png">					
+				
+			</div>
+		
+			<a style="float: right;" onclick="hideContact()" href='#'> Close </a>
+			
+		</div>		
+		
+		
+			<p style="   <!--This div summons my great name in the centre of the page-->
+					font-weight: bold;
+					font-size: 10rem;
+					text-align: center; 
+					color: white;
+					padding-top: 10rem;
+					">
+				Kacper Wozniak 
+				
+			</p> 
+			
+			<p style="      <!--the true title of the website resides in here-->
+					font-weight: bold;
+					font-size: 3rem;
+					text-align: center;
+					color: white;
+					margin: -20px;
+					">
+			
+				Games Designer
+			
+			</p>
+		
+			
+			
+			<p style="         <!--This is where the other pages wait to be clicked-->
+					font-weight: bold;
+					font-size: 2rem;
+					text-align: center;
+					color: white;
+					"> 
+				
+				<a href="Zbrush.html">ZBrush </a>| <a href="Maya.html">Maya</a> |<a href="Substance.html"> Substance Designer </a>|<a href="UE4.html"> Unreal Engine 4</a>
+
+			</p>
+		
+		
+		
+		
+	
+	</body>
+
+
+
+
+
+
+</html>

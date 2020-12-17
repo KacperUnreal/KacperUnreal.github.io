@@ -1,0 +1,149 @@
+#Show
+{
+	background-color:rgba(0, 0, 0, 0.4);  
+	height:20rem;
+	width:20rem;
+	float:left;
+	margin:1rem
+}
+
+#Show2
+{
+	background-color:rgba(0, 0, 0, 0.4);  
+	height:11rem;
+	width:20rem;
+	float:left;
+	margin:1rem
+}
+
+#Popup
+{
+	position: absolute;
+	height: 35rem;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1);
+	z-index: 1000;
+	float: center;
+	top: 25%;
+	background-image: url("../images/Popup Background2.png");
+	background-repeat: repeat;
+	background-size: 25%;
+	opacity: 0.8;
+}
+
+.bottomright 
+{	
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 18px;
+	color: white;
+}
+
+
+
+
+
+.header
+{
+	background-color:rgba(0, 0, 0, 0.4);
+	height:3rem;
+	width:375px;
+	float:right;
+}
+
+
+
+
+
+a:link  
+                   
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+		
+}	
+
+
+a:visited
+
+{
+	color: rgb(255, 0, 0); 
+	background-color: transparent;
+	text-decoration: none;
+}
+	
+	
+#CVtitle
+{
+	background-color:rgba(255, 255, 255, 1);  
+	height:5rem;
+	width:25rem;
+	float:center;
+	margin:1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#CVparagraph
+{
+	background-color:rgba(255, 255, 255, 1);  
+	height: 25rem;
+	width:30%;
+	float:center;
+	margin:1rem;
+	position: absolute;
+	left: 33%;
+}	
+
+#CVparagraph2
+{
+	background-color:rgba(255, 255, 255, 1);  
+	height: 25rem;
+	width:30%;
+	float:center;
+	margin:1rem;
+	position: absolute;
+	left: 33%;	
+	top: 40rem;
+		
+}
+
+#CVstats
+{
+	background-color:rgba(255, 255, 255, 1);  
+
+	width:25%;
+	position: absolute;
+	margin: 3rem;
+
+}
+
+#CVstat
+{
+	background-color:rgba(255, 255, 255, 1);  
+
+	width:25%;
+	position: absolute;
+	margin: 3rem;
+	right: 0px;
+	
+
+}
+
+.fader
+{
+	animation: fade 2s
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0%;
+	}
+	
+	100% {
+		opacity: 80%;
+	}
+}
+
